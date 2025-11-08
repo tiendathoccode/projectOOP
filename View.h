@@ -21,10 +21,11 @@ public:
 	void displayQuestionStatus(const AnswerRecord& record);//trang thai cau hoi hien tai
 
 	//ket qua cuoi cung
-	void displayResult(const User& user, const Result<double>& result, const std::string& startTime, const std::string& totalTime);
+	void displayResult(const User& user, const Result<double>& result, const string& startTime, const string& totalTime);
 	void displayMenu();//hien thi chon thao tac
 	void displayPrompt(const string& message);//nhac nhap ten
 	void displayError(const string& error);//thong bao loi
 
 };
+
 
